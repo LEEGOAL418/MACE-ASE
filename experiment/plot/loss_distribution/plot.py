@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-df = pd.read_csv("/home/user/Desktop/MACE-code/experiment/plot/loss_distribution/loss_results.csv")
+df = pd.read_csv("/home/user/Desktop/MACE-ASE/experiment/plot/loss_distribution/loss_results.csv")
 plt.figure()
 plt.scatter(df['Number_of_Atoms'], np.sqrt(df['Energy_Loss']))
 plt.savefig('energy_error.png', dpi=300)

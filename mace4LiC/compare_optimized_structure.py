@@ -39,9 +39,9 @@ def calculate_errors(final_true, final_pred):
 
 def main():
     # 参数配置
-    model_path = "/home/mect-a/桌面/MACE-code/experiment/parameter_test_20241212.model"  # 替换为实际的 MACE 模型路径
-    init_structure_path = "/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion2/dataset/19_AA.extxyz"  # 初始数据文件
-    output_dir = "/home/mect-a/桌面/MACE-code/structoptimize/optimizedcell"  # 输出文件夹
+    model_path = "/home/mect-a/桌面/MACE-ASE/experiment/parameter_test_20241212.model"  # 替换为实际的 MACE 模型路径
+    init_structure_path = "/home/mect-a/桌面/MACE-ASE/data/LixC12/raw/dataset_ibrion2/dataset/19_AA.extxyz"  # 初始数据文件
+    output_dir = "/home/mect-a/桌面/MACE-ASE/structoptimize/optimizedcell"  # 输出文件夹
 
     # 读取初始文件（如 02_AB.extxyz）
     all_structures = read(init_structure_path, index=":")  # 读取文件中所有构型
