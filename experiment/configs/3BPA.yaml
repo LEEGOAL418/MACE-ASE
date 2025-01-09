@@ -1,0 +1,25 @@
+name: MACE_model
+seed: 2024
+train_file: "../data/dataset_3BPA/train_300K.xyz"
+valid_fraction: 0.05
+test_file: "../dataset_3BPA/test_300K.xyz"
+force_key: forces
+energy_key: energy
+E0s: 
+  1: -13.663181292231226
+  6: -1029.2809654211628 
+  7: -1484.1187695035828
+  8: -2042.0330099956639
+model: ScaleShiftMACE
+hidden_irreps: '128x0e + 128x1o'
+r_max: 4.0
+batch_size: 20
+swa: yes
+max_num_epochs: 100
+ema: yes 
+ema_decay: 0.99
+amsgrad: yes
+default_dtype: "float32" \
+device: cuda
+config_type_weights:
+  Default: 1.0
