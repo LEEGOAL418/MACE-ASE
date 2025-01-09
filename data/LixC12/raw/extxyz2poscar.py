@@ -3,7 +3,7 @@ from ase.io import read, write
 
 def convert_extxyz_to_poscar():
     # 定义输出根目录
-    output_root = "/home/user/Desktop/MACE-ASE/data/LixC12/raw/output_ibrion2"
+    output_root = "/home/user/Desktop/MACE-code/data/LixC12/raw/output_ibrion2"
     
     # 定义 optimizedcell 目录路径（去掉方括号）
     optimizedcell_dir = os.path.join(output_root, "optimizedcell")

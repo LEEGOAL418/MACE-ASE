@@ -1,0 +1,145 @@
+path,num_confs,num_atoms,atoms
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AA_0.extxyz,9,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AA_1.extxyz,6,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AA_2.extxyz,10,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AA_3.extxyz,12,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AA_4.extxyz,18,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AA_5.extxyz,7,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AA_6.extxyz,3,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AA_7.extxyz,6,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AA_8.extxyz,6,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AA_9.extxyz,5,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AA_10.extxyz,6,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AA_0.extxyz,12,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AA_1.extxyz,10,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AA_2.extxyz,17,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AA_3.extxyz,17,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AA_4.extxyz,27,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AA_5.extxyz,17,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AA_6.extxyz,9,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AA_7.extxyz,3,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AA_8.extxyz,3,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AA_9.extxyz,8,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AA_10.extxyz,8,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AA_0.extxyz,13,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AA_1.extxyz,45,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AA_2.extxyz,42,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AA_3.extxyz,19,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AA_4.extxyz,30,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AA_5.extxyz,50,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AA_6.extxyz,40,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AA_7.extxyz,20,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AA_8.extxyz,5,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AA_9.extxyz,44,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AA_10.extxyz,60,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AA_0.extxyz,97,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AA_1.extxyz,55,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AA_2.extxyz,41,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AA_3.extxyz,139,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AA_4.extxyz,97,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AA_5.extxyz,121,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AA_6.extxyz,15,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AA_7.extxyz,5,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AA_8.extxyz,6,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AA_9.extxyz,3,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AA_10.extxyz,11,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AA_0.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AA_1.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AA_2.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AA_3.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AA_4.extxyz,61,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AA_5.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AA_6.extxyz,42,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AA_7.extxyz,14,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AA_8.extxyz,9,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AA_9.extxyz,3,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AA_10.extxyz,36,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion2/dataset/02_AA.extxyz,1,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion2/dataset/03_AA.extxyz,11,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion2/dataset/04_AA.extxyz,26,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion2/dataset/05_AA.extxyz,48,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion2/dataset/06_AA.extxyz,34,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AB_0.extxyz,33,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AB_1.extxyz,19,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AB_2.extxyz,19,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AB_3.extxyz,29,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AB_4.extxyz,18,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AB_5.extxyz,36,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AB_6.extxyz,23,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AB_7.extxyz,30,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AB_8.extxyz,19,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AB_9.extxyz,6,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/2_AB_10.extxyz,11,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AB_0.extxyz,23,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AB_1.extxyz,25,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AB_2.extxyz,80,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AB_3.extxyz,34,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AB_4.extxyz,52,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AB_5.extxyz,52,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AB_6.extxyz,28,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AB_7.extxyz,96,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AB_8.extxyz,28,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AB_9.extxyz,21,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/3_AB_10.extxyz,158,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AB_0.extxyz,55,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AB_1.extxyz,61,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AB_2.extxyz,55,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AB_3.extxyz,55,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AB_4.extxyz,56,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AB_5.extxyz,68,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AB_6.extxyz,46,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AB_7.extxyz,44,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AB_8.extxyz,53,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AB_9.extxyz,9,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/4_AB_10.extxyz,63,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AB_0.extxyz,156,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AB_1.extxyz,41,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AB_2.extxyz,84,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AB_3.extxyz,98,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AB_4.extxyz,43,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AB_5.extxyz,193,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AB_6.extxyz,80,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AB_7.extxyz,10,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AB_8.extxyz,200,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AB_9.extxyz,39,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/5_AB_10.extxyz,200,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AB_0.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AB_1.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AB_2.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AB_3.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AB_4.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AB_5.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AB_6.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AB_7.extxyz,25,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AB_8.extxyz,19,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AB_9.extxyz,14,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion1/6_AB_10.extxyz,200,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion2/dataset/02_AB.extxyz,46,13,[6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion2/dataset/03_AB.extxyz,29,17,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion2/dataset/04_AB.extxyz,60,29,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion2/dataset/05_AB.extxyz,35,37,[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 3]
+/home/mect-a/桌面/MACE-code/data/LixC12/raw/dataset_ibrion2/dataset/06_AB.extxyz,69,49,"[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
+ 6 6 6 6 6 6 6 6 6 6 6 3]"

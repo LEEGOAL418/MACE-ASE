@@ -3,7 +3,7 @@ import csv
 from ase.io import read
 
 def extract_optimization_info():
-    output_root = "/home/user/Desktop/MACE-ASE/data/LixC12/raw/output_ibrion2"
+    output_root = "/home/user/Desktop/MACE-code/data/LixC12/raw/output_ibrion2"
     steps_dir = os.path.join(output_root, "steps")
     csv_output = os.path.join(output_root, "optimization_summary.csv")
 
