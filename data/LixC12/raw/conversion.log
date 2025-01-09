@@ -1,0 +1,2 @@
+usage: extxyz2poscar.py [-h] --output_root OUTPUT_ROOT
+extxyz2poscar.py: error: the following arguments are required: --output_root
