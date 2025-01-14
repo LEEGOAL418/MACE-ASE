@@ -1,32 +1,41 @@
 import os
 import time
 import argparse
+import numpy as np
 from ase.io import read, write
 from ase.optimize import LBFGS
 from ase.optimize.sciopt import SciPyFminCG
 from ase.io.trajectory import Trajectory
 from mace.calculators.mace import MACECalculator
 from ase.constraints import FixedLine
+import csv
 
+def compute_mae(refr_config, pred_config):
+    """
+    计算原子坐标的 MAE (Mean Absolute Error)
+    
+    参数：
+        ref_config :参考构型
+        pred_config :预测构型
+    
+    返回：
+        torch.Tensor: 计算得到的 MAE
+    """
+    refr_positions = refr_config.arrays["positions"]
+    pred_positions = pred_config.arrays["positions"]
+    mae_coords = np.abs(refr_positions - pred_positions)
+    total_mae = np.mean(mae_coords)
+    return total_mae
 
 def optimize_structure(
     model_path,
     init_structure_path,
-    output_dir,  # 输出文件的根目录
-    optimizer="LBFGS",  # 默认使用 LBFGS
+    output_dir,
+    optimizer="LBFGS",
     fmax=0.01,
-    constrain_c_atoms=False  # 布尔值参数，控制是否施加约束
+    constrain_c_atoms=False,
+    result_csv_path="optimization_results.csv"
 ):
-    """
-    优化原子结构并记录优化过程
-
-    :param model_path: MACE 模型路径
-    :param init_structure_path: 初始结构文件路径
-    :param output_dir: 输出文件的根目录
-    :param optimizer: 优化算法选择 ("LBFGS" 或 "CG")
-    :param fmax: 最大力收敛标准 (eV/Å)
-    :param constrain_c_atoms: 布尔值参数，控制是否对 C 原子施加约束（只允许在 z 方向移动）
-    """
     # 确保输出目录存在
     os.makedirs(output_dir, exist_ok=True)
 
@@ -46,20 +55,19 @@ def optimize_structure(
     # 加载 MACE 模型
     calculator = MACECalculator(model_path=model_path, device='cuda', dtype='float64')
 
-    # 读取初始结构文件（如果有多个构型，则只取第 0 个）
+    # 读取初始结构文件（如果有多个构型，则取第一个和最后一个）
     all_confs = read(init_structure_path, index=':')
-    if not all_confs:
-        raise ValueError(f"No structures found in file: {init_structure_path}")
     init_conf = all_confs[0]
+    refr_conf = all_confs[-1]
+    
     print(f"Total number of configurations in file: {len(all_confs)}")
-    print("Using the first configuration (index=0) for optimization.")
+    print("Using the first configuration (index=0) for optimization and the last one for reference.")
 
     # 为初始结构设置 MACE 计算器
     init_conf.calc = calculator
 
-    # 施加约束（如果指定）
+    # 施加约束,目前仅限定z方向自由度（如果指定）
     if constrain_c_atoms:
-        # 限制所有碳原子仅在 z 方向上移动
         carbon_indices = [atom.index for atom in init_conf if atom.symbol == 'C']
         if carbon_indices:
             constraints = FixedLine(indices=carbon_indices, direction=[0, 0, 1])
@@ -89,7 +97,7 @@ def optimize_structure(
         raise ValueError("Invalid optimizer selected. Choose 'LBFGS' or 'CG'.")
 
     # 运行优化
-    dyn.run(fmax=fmax)  # 优化停止条件
+    dyn.run(fmax=fmax)
 
     # 记录优化结束时间
     end_time = time.time()
@@ -99,11 +107,16 @@ def optimize_structure(
     print(f"Optimization completed in {total_time:.2f} seconds.")
 
     # 打印优化后的能量
-    optimized_energy = init_conf.get_potential_energy()
+    pred_conf = init_conf
+    optimized_energy = pred_conf.get_potential_energy()
     print(f"Optimized Energy: {optimized_energy:.6f} eV")
 
+    # 计算优化后的坐标与参考结构的 MAE
+    mae = compute_mae(refr_conf, pred_conf)
+    print(f"Coordinates MAE: {mae:.6f} Å")
+
     # 输出优化后的结构到文件
-    write(relaxed_structure_path, init_conf)
+    write(relaxed_structure_path, pred_conf)
     print(f"Relaxed structure saved to: {relaxed_structure_path}")
 
     # 将轨迹文件中的所有优化步骤保存到一个 .extxyz 文件
@@ -112,6 +125,29 @@ def optimize_structure(
         for step, atoms in enumerate(steps):
             write(f, atoms, format='extxyz')
     print(f"Optimization steps saved to: {steps_output_path}")
+
+    # 记录优化结果到 CSV
+    results = {
+        "filename": base_name,
+        "steps": len(steps),
+        "time(s)": total_time,
+        "final_energy(eV)": optimized_energy,
+        "Coordinates MAE(A)": mae
+    }
+
+    # 使用 csv.writer 处理 CSV 文件
+    file_exists = os.path.exists(result_csv_path)
+    with open(result_csv_path, mode='a', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=["filename", "steps", "time(s)", "final_energy(eV)", "Coordinates MAE(A)"])
+
+        # 如果文件不存在，则写入标题行
+        if not file_exists:
+            writer.writeheader()
+
+        # 写入结果
+        writer.writerow(results)
+    
+    print(f"Results saved to {result_csv_path}")
 
     print("Optimization finished!")
 
@@ -138,6 +174,11 @@ if __name__ == "__main__":
         action='store_true',
         help="Apply constraints on C atoms to move only along z direction."
     )
+    parser.add_argument(
+        "--result_csv_path",
+        default="optimization_results.csv",
+        help="Path to save the optimization results in CSV format."
+    )
 
     args = parser.parse_args()
 
@@ -147,5 +188,6 @@ if __name__ == "__main__":
         output_dir=args.output_dir,
         optimizer=args.optimizer,
         fmax=args.fmax,
-        constrain_c_atoms=args.constrain_c_atoms
+        constrain_c_atoms=args.constrain_c_atoms,
+        result_csv_path=args.result_csv_path
     )
